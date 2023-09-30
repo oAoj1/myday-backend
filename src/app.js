@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 const tarefasRoute = require('./routes/tarefasRoute.js')
 const bodyParser = require('body-parser')
 const db = require('./config/dbConnect.js')
